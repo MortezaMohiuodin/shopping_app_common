@@ -10,5 +10,5 @@ export * from './middlewares/require-auth'
 export * from './middlewares/validation-request'
 export * from './middlewares/current-user'
 
-
+export * from './constants/auth/user.interfaces'
 
