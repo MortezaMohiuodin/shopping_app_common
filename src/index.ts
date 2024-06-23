@@ -8,6 +8,7 @@ export * from './errors/not-found-error'
 export * from './middlewares/error-handler'
 export * from './middlewares/require-auth'
 export * from './middlewares/validation-request'
+export * from './middlewares/current-user'
 
 
 
