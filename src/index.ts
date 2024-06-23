@@ -12,3 +12,6 @@ export * from './middlewares/current-user'
 
 export * from './constants/auth/user.interfaces'
 
+
+export * from './services/authentication.service'
+
