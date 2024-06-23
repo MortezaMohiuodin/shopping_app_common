@@ -11,7 +11,7 @@ export * from './middlewares/validation-request'
 export * from './middlewares/current-user'
 
 export * from './constants/auth/user.interfaces'
-
+export * from './constants/globals'
 
 export * from './services/authentication.service'
 
