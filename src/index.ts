@@ -9,6 +9,8 @@ export * from './middlewares/error-handler'
 export * from './middlewares/require-auth'
 export * from './middlewares/validation-request'
 export * from './middlewares/current-user'
+export * from './middlewares/uploader'
+
 
 export * from './constants/auth/user.interfaces'
 export * from './constants/globals'
