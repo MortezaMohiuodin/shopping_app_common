@@ -10,7 +10,7 @@ export class RequestValidationError extends CustomError {
 
     generateErrors() {
         return this.errors.map(error => {
-            return { message: error.msg, field: error.param }
+            return { message: error.msg, field: 'field' }
         })
     }
 }
