@@ -7,7 +7,7 @@ export interface UploadMiddlewareOptions{
 
 export class Uploader{
     constructor(public uploadDir:string){}
-    public defaultUploadDir = "/upload"
+    public defaultUploadDir = "upload/"
 
     public fileFilter = (types?:Array<string>)=>{
         return (req : Req,file: Express.Multer.File,cb:FileFilterCallback )=>{
