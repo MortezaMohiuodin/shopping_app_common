@@ -20,5 +20,5 @@ export * from './constants/seller/product.interfaces'
 
 export * from './services/authentication.service'
 
-
+export * from './constants/buyer/cart.interfaces'
 
