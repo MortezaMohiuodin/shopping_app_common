@@ -6,5 +6,6 @@ export interface CartDoc extends mongoose.Document {
     user : UserDoc | string;
     products : Array<CartProductDoc | string>
     totalPrice : number
+    customer_id?: string
 }
 export interface CartModel extends mongoose.Model<CartDoc>{}
